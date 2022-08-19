@@ -18,6 +18,13 @@
     </header>
     <section>
         <input type="text">
+        <button onclick="myFunction()">Try it</button>
     </section>
 </body>
+<script>
+    function myFunction() {
+  var x = document.getElementById("myText").value;
+  document.getElementById("demo").innerHTML = x;
+}
+</script>
 </html>
