@@ -13,12 +13,12 @@ header {
 .table {
   margin-left: auto;
   margin-right: auto;
-  min-width: 400px;
 }
 
 ul#navigation {
 	list-style: none;
 	padding-top: 20px;
+  min-width: 500px;
 }
 
 ul#navigation li {
