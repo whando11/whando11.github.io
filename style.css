@@ -19,7 +19,7 @@ header {
 ul#navigation {
 	list-style: none;
 	padding-top: 20px;
-  min-width: 500px;
+  width: 500px;
 }
 
 ul#navigation li {
