@@ -13,14 +13,16 @@ padding: 0;
 }
 
 .table {
-  display: flex;
-	align-items: center;
+display: flex;
+align-items: center;
   justify-content: center;
+  min-width: 750px;
 }
 
 ul#navigation {
 list-style: none;
 padding-top: 20px;
+ 
   
 }
 
