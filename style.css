@@ -18,6 +18,8 @@ header {
 ul#navigation {
 	list-style: none;
 	padding-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 ul#navigation li {
