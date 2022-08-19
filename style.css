@@ -1,9 +1,11 @@
 body {
     margin: 0;
+    padding: 0;
     background-color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
   
-  header {
+header {
   background-color: rgb(238, 238, 238);
   box-shadow: 0px 10px 10px -10px;
   height: 80px;
@@ -13,36 +15,44 @@ body {
   }
 
 
-  ul#navigation {
+ul#navigation {
   display: flex;
   align-items: center;
   justify-content: center;
   list-style: none;
-  padding: 10px;
+  padding: 0px 100px 0px 100px;
   margin: 0;
   }
   
-  ul#navigation li {
+ul#navigation li {
     display: inline;
   }
   
-  li a {
+li a {
     color: #000;
     padding: 8px 16px;
     text-decoration: none;
+    font-size: 20;
   }
   
-  li a.active {
+li a.active {
     background-color: #04AA6D;
     color: white;
   }
   
-  li a:hover:not(.active) {
+li a:hover:not(.active) {
     background-color: #555;
     color: white;
   }
   
-  section {
+section {
     margin: 0;
     padding: 0;
   }
+
+#message {
+    padding: 5px;
+    display: flex;
+    text-align: center;
+    
+}
