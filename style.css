@@ -6,8 +6,13 @@ body {
 header {
   background-color: rgb(238, 238, 238);
   box-shadow: 10px;
-  display: table;
   height: 100px;
+  width: 100%;
+}
+
+.table {
+	display: table;   /* Allow the centering to work */
+	margin: 0 auto;
 }
 
 ul#navigation {
@@ -16,7 +21,7 @@ ul#navigation {
 	padding-top: 20px;
 }
 
-  li {
+ul#navigation li {
     display: inline;
   }
 
