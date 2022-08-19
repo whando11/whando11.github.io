@@ -13,12 +13,13 @@ padding: 0;
 }
 
 .table {
-display: flex;
-align-items: center;
-justify-content: center;
+
 }
 
 ul#navigation {
+display: flex;
+align-items: center;
+justify-content: center;
 list-style: none;
 padding: 0;
 margin: 0;
