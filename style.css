@@ -20,6 +20,7 @@ ul#navigation {
 	padding-top: 20px;
   margin-left: auto;
   margin-right: auto;
+  width: 8em;
 }
 
 ul#navigation li {
